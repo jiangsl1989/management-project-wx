@@ -78,13 +78,13 @@
 					{
 						price: 35,
 						title: '北国风光，千里冰封，万里雪飘',
-						shop: '李白杜甫白居易旗舰店',
+						shop: '白居易旗舰店',
 						image: 'http://pic.sc.chinaz.com/Files/pic/pic9/202002/zzpic23327_s.jpg',
 					},
 					{
 						price: 75,
 						title: '望长城内外，惟余莽莽',
-						shop: '李白杜甫白居易旗舰店',
+						shop: '杜甫白居易旗舰店',
 						image: 'http://pic.sc.chinaz.com/Files/pic/pic9/202002/zzpic23325_s.jpg',
 					},
 					{
