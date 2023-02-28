@@ -1,14 +1,13 @@
 <template>
 	<view>
-		<page1></page1>
+		<text>page3</text>
 	</view>
 </template>
 
 <script>
-	import page1 from '@/myPages/pages/page1.vue'
 	export default {
-		name:"",
-		components:{page1},
+		name:"page3",
+		components:{},
 		data() {
 			return {
 				

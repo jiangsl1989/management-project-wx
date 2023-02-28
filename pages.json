@@ -72,5 +72,58 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	
+	//分包1
+	"myPages":[{
+		"root": "myPages",
+		"pages": [
+			{
+				"path": "pages/page1",
+				"style": {}
+			}
+		],
+		"independent": true
+		
+	}],
+	
+	//分包2
+	"productionPages": [{
+		"root": "productionPages",
+		"pages": [
+			{
+				"path": "pages/page2",
+				"style": {}
+			}
+		],
+		"independent": true
+	}],
+	
+	//分包3
+	"shoppingCarPages": [{
+		"root": "shoppingCarPages",
+		"pages": [
+			{
+				"path": "pages/page3",
+				"style": {}
+			}
+		],
+		"independent": true
+	}],
+	
+	//配置分包
+	"preloadRule": {
+		"pages/index/my": {
+			"nework": "all",
+			"packages": ["__APP__"]
+		},
+		"pages/index/production": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"pages/index/shoppingCar": {
+			"network": "all",
+			"packages": ["__APP__"]
+		}
+	}
 }
