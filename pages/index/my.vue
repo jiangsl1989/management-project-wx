@@ -1,14 +1,15 @@
 <template>
 	<view>
-		<page1></page1>
+		<avatarPage></avatarPage>
 	</view>
 </template>
 
 <script>
-	import page1 from '@/myPages/pages/page1.vue'
+	import avatarPage from '@/myPages/pages/avatar-page.vue'
+	
 	export default {
 		name:"",
-		components:{page1},
+		components:{avatarPage},
 		data() {
 			return {
 				

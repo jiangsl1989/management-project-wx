@@ -78,10 +78,7 @@
 	"myPages":[{
 		"root": "myPages",
 		"pages": [
-			{
-				"path": "pages/page1",
-				"style": {}
-			}
+			
 		],
 		"independent": true
 		
